@@ -1,0 +1,46 @@
+.heading{
+margin-top: 50px;
+color:white;
+font-size:60px;
+display: flex;
+justify-content:center ;
+align-items: center;
+
+}
+.heading span {
+    color:darkcyan;
+    padding-left: 10px;
+}
+.reset {
+    width: 500px;
+    height: 100px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    border-radius:30px;
+    background: dimgray;
+    font-size: 20px;
+    color:cyan;
+    margin-top: 25px;
+    margin-bottom:50px;
+
+}
+.boxes {
+    display: flex;
+    height: 100px;
+    width:100px;
+    background: darkcyan;
+    border:4px solid darkcyan;
+    border-radius: 10px;
+    cursor:pointer;
+    margin: 0.2rem;
+   
+
+}
+.board {
+    height: 300px;
+    width: 100px;
+    display: flex;
+    margin:5rem;
+    align-items: center;
+}
